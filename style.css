@@ -22,10 +22,15 @@ body{
 }
 
 .cover{
-    height: 50px;
-    text-align: center;
     padding: 100px;
-    flex-wrap: nowrap;
+    display: flex;
+    flex-direction:column;
+}
+
+.thoughts{
+    padding: 100px;
+    display: flex;
+    flex-direction:column;
 }
 
 .logo{
